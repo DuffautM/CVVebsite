@@ -1,0 +1,71 @@
+body
+{
+
+	/*background: linear-gradient(to bottom left, #222222, #444444);.*/
+	background-color: #444444;
+	font-family: College, Helvetica;
+}
+
+@font-face
+{
+	font-family: College;
+	src: url('Polices/collegeb.ttf') format('ttf');
+}
+
+header
+{
+	margin-top: 3rem;
+	margin-bottom: 3.2rem;
+	color: #ffc600;
+	border: white;
+}
+
+#welcome_banner
+{
+	text-align: center;
+	font-weight: bold;
+	font-size: 2.5rem;
+}
+
+#profile_picture_img
+{
+	width: 25rem;
+	height: 25rem;
+
+	border-radius: 90%;
+	border: solid white;
+
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#profile_picture_div
+{
+
+}
+
+.button_menu
+{
+	width: 100px;
+}
+
+.row_button
+{
+	display: flex;
+	flex: 1;
+	align-items: center;
+	justify-content: center;
+}
+
+.rButton
+{
+	font-size: 2rem;
+	border: .05rem solid #FFFFFF;
+	color: #ffc600;
+	margin:1rem;
+	margin-top:4em;
+	padding: 0.7rem .5rem;
+	background: rgba(0,0,0,0.1);
+	border-radius: .5rem;
+}
