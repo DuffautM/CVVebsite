@@ -1,20 +1,18 @@
-body
+html
 {
-
 	/*background: linear-gradient(to bottom left, #222222, #444444);.*/
 	background-color: #444444;
-	font-family: College, Helvetica;
+
 }
 
-@font-face
+html, button
 {
-	font-family: College;
-	src: url('Polices/collegeb.ttf') format('ttf');
+	font-family: 'Open Sans', Helvetica;
+	font-style: italic;
 }
 
 header
 {
-	margin-top: 3rem;
 	margin-bottom: 3.2rem;
 	color: #ffc600;
 	border: white;
@@ -27,22 +25,36 @@ header
 	font-size: 2.5rem;
 }
 
+#profile_picture_div
+{
+	padding-top: 2rem;
+}
+
 #profile_picture_img
 {
 	width: 25rem;
 	height: 25rem;
 
 	border-radius: 90%;
-	border: solid white;
+	border: solid #FFFFFF;
 
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+
+	transition-property: box-shadow, border;
+	transition-duration: 0.8s;
+
+}
+
+#profile_picture_img:hover
+{
+	box-shadow: 0 0 1rem #ffc600;
+	border: solid #ffc600;
 }
 
 #profile_picture_div
 {
-
 }
 
 .button_menu
@@ -68,4 +80,16 @@ header
 	padding: 0.7rem .5rem;
 	background: rgba(0,0,0,0.1);
 	border-radius: .5rem;
+	width: 13rem;
+
+	transition-property: background, box-shadow, border;
+	transition-duration: 0.8s;
+
+	}
+
+.rButton:hover
+{
+	box-shadow: 0 0 1rem #ffc600;
+	background: rgba(255,255,255,0.1);
+	border: .05rem solid #ffc600;
 }
