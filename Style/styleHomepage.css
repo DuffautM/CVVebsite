@@ -1,7 +1,6 @@
 header
 {
 	margin-bottom: 3.2rem;
-	
 	border: white;
 }
 
@@ -31,17 +30,12 @@ header
 
 	transition-property: box-shadow, border;
 	transition-duration: 0.8s;
-
 }
 
 #profile_picture_img:hover
 {
 	box-shadow: 0 0 1rem #ffc600;
 	border: solid #ffc600;
-}
-
-#profile_picture_div
-{
 }
 
 .button_menu
@@ -70,8 +64,7 @@ header
 
 	transition-property: background, box-shadow, border;
 	transition-duration: 0.8s;
-
-	}
+}
 
 .rButton:hover
 {
