@@ -12,3 +12,62 @@ html, button
 	color: #ffc600;
 }
 
+.profile_picture_navbar{
+
+	border-radius: 90%;
+	border: solid #FFFFFF;
+
+	width: 10rem;
+
+	margin-left: 1rem;
+	margin-top: 1rem;
+
+}
+
+.page_title{
+
+	font-size: 2.5rem;
+	float: left;
+}
+
+.navbar_left_side
+{
+	width: 13rem;
+	float: left;
+	display: inline;
+	margin: 0;
+	padding: 0;
+	margin-right: 3rem;
+	height: 100vh;
+	border-right: solid  #666666;
+}
+
+.cButton
+{
+	font-size: 1rem;
+	border: .05rem solid #FFFFFF;
+	margin:1rem;
+	margin-top:1rem;
+	margin-left: 2.2rem;
+	padding: 0.7rem .5rem;
+	background: rgba(0,0,0,0.1);
+	border-radius: .5rem;
+	width: 8rem;
+
+	transition-property: background, box-shadow, border;
+	transition-duration: 0.8s;
+}
+
+.cButton:hover
+{
+	box-shadow: 0 0 1rem #ffc600;
+	background: rgba(255,255,255,0.1);
+	border: .05rem solid #ffc600;
+}
+
+.column_button
+{
+	margin-top: 1rem;
+}
+
+

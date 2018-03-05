@@ -16,7 +16,7 @@ header
 	padding-top: 2rem;
 }
 
-#profile_picture_img
+#profile_picture_homepage_img
 {
 	width: 25rem;
 	height: 25rem;
@@ -32,7 +32,7 @@ header
 	transition-duration: 0.8s;
 }
 
-#profile_picture_img:hover
+#profile_picture_homepage_img:hover
 {
 	box-shadow: 0 0 1rem #ffc600;
 	border: solid #ffc600;
@@ -60,7 +60,7 @@ header
 	padding: 0.7rem .5rem;
 	background: rgba(0,0,0,0.1);
 	border-radius: .5rem;
-	width: 13rem;
+	width: 15rem;
 
 	transition-property: background, box-shadow, border;
 	transition-duration: 0.8s;
